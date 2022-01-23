@@ -1,0 +1,60 @@
+.health{
+    width: 1250px;
+    height: 830px;
+    background-image: url(..//..//images/runners.png);
+    background-repeat: no-repeat;
+    object-position: top;
+    margin: 0 auto;
+    padding-top: 240px;
+    padding-left: 510px;
+}
+
+.health__inner{
+    width: 490px;
+    margin: 0;
+    padding: 0;
+}
+
+.health__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.health__paragraph{
+    margin: 0;
+    padding: 0;
+    border-left: 3px solid #FFFFFF;
+    padding-left: 40px;
+}
+
+.health__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 30px 0;
+    padding: 0;
+}
+
+.health__button{
+    width: 260px;
+    background-color: #EA625C;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 0;
+
+    &:hover{
+     background-color: #D6504D;
+    }
+}
